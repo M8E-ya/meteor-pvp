@@ -8,8 +8,7 @@ import org.bukkit.entity.Player;
 import java.util.UUID;
 
 public enum MaxKits {
-    Normal(4, false),
-    Donator(8, true);
+    Normal(6, false); //Todo: Trusted players
 
     public final int count;
     public final boolean canHavePublic;
@@ -20,7 +19,7 @@ public enum MaxKits {
     }
 
     public static MaxKits get(HumanEntity player) {
-        return Utils.isDonator(player) ? Donator : Normal;
+        return Normal;
     }
 
     public static MaxKits get(UUID uuid) {

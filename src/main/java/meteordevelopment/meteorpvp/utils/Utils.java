@@ -46,10 +46,6 @@ public class Utils {
         return isAdmin(player) || isMod(player) || player.hasPermission(Perms.HELPER);
     }
 
-    public static boolean isDonator(HumanEntity player) {
-        return isAdmin(player) || isMod(player) || player.hasPermission(Perms.DONATOR);
-    }
-
     public static void setName(ItemStack itemStack, String name) {
         ItemMeta pageItemMeta = itemStack.getItemMeta();
         pageItemMeta.setDisplayName(name);

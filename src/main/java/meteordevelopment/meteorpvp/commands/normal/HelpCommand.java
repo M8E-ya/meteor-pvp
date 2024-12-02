@@ -2,7 +2,7 @@ package meteordevelopment.meteorpvp.commands.normal;
 
 import meteordevelopment.meteorpvp.commands.Commands;
 import meteordevelopment.meteorpvp.commands.MyCommand;
-import org.apache.commons.lang.math.NumberUtils;
+import org.apache.commons.lang3.math.NumberUtils;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.command.ConsoleCommandSender;

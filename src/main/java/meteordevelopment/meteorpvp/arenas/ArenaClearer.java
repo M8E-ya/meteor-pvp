@@ -47,7 +47,7 @@ public class ArenaClearer {
         World world = Bukkit.getWorld(worldName);
 
         for (Entity entity : world.getEntities()) {
-            if (entity.getType() == EntityType.ENDER_CRYSTAL) entity.remove();
+            if (entity.getType() == EntityType.END_CRYSTAL) entity.remove();
         }
 
         FaweAPI.getTaskManager().async(() -> {

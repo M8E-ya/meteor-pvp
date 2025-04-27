@@ -33,7 +33,7 @@ dependencies {
     compileOnly "net.luckperms:api:5.4"
 
     implementation "org.reflections:reflections:0.10.2"
-    implementation "com.github.Querz:NBT:5.5"
+    implementation "com.github.Querz:NBT:6.1"
     implementation "io.prometheus:simpleclient:0.16.0"
     implementation "io.prometheus:simpleclient_httpserver:0.16.0"
 }

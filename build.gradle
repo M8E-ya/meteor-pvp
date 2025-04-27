@@ -27,7 +27,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly("io.papermc.paper:paper-api:1.21.3-R0.1-SNAPSHOT")
+    compileOnly("io.papermc.paper:paper-api:1.21.4-R0.1-SNAPSHOT")
     compileOnly 'com.sk89q.worldguard:worldguard-bukkit:7.0.13-SNAPSHOT'
     compileOnly('com.fastasyncworldedit:FastAsyncWorldEdit-Core:2.12.2') { transitive = false }
     compileOnly "net.luckperms:api:5.4"
